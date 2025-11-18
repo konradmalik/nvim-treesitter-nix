@@ -1,0 +1,4 @@
+# nix
+!flake.lock
+.direnv
+result
