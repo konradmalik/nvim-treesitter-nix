@@ -43,12 +43,12 @@
   };
   angular = buildGrammar {
     language = "angular";
-    version = "0.0.0+rev=56fffa8";
+    version = "0.0.0+rev=d2f3884";
     src = fetchFromGitHub {
       owner = "dlvandenberg";
       repo = "tree-sitter-angular";
-      rev = "56fffa8c9ea7389cb2237f4a01c4a2058ac64416";
-      hash = "sha256-QGTtdFPJYTJ+5Lz5VlwDvikJaXLim/j7wTap/JKDJaY=";
+      rev = "d2f388435b062fdd6b3c386db6c23db2da67e578";
+      hash = "sha256-nH7oiu1GgPjFSvH4lR4u/D2+eKJbbf8yIBbPgdv7I78=";
     };
     meta.homepage = "https://github.com/dlvandenberg/tree-sitter-angular";
   };
