@@ -608,12 +608,12 @@
   };
   editorconfig = buildGrammar {
     language = "editorconfig";
-    version = "0.0.0+rev=783a30a";
+    version = "0.0.0+rev=c571889";
     src = fetchFromGitHub {
       owner = "ValdezFOmar";
       repo = "tree-sitter-editorconfig";
-      rev = "783a30a216b982a6827b2abe52a4edbd909cb26a";
-      hash = "sha256-Gg5tQ7FMnV/XXm2PkAyxK4HDrh7bxcYgYQgleRE8eNw=";
+      rev = "c571889b7c875690b78f79c4304cbf267e130818";
+      hash = "sha256-vT7TsGXRz08bmT4FFaIGo9L0Mn2744IcAiqu0s8e24E=";
     };
     meta.homepage = "https://github.com/ValdezFOmar/tree-sitter-editorconfig";
   };
@@ -1847,23 +1847,23 @@
   };
   meson = buildGrammar {
     language = "meson";
-    version = "0.0.0+rev=280b6e5";
+    version = "0.0.0+rev=d4fa3c7";
     src = fetchFromGitHub {
       owner = "tree-sitter-grammars";
       repo = "tree-sitter-meson";
-      rev = "280b6e59186f18528bab1567f5cc43b78b9cd881";
-      hash = "sha256-zqsSx5sfX28RrywHLKhAqtVZs9cI6rjU/3pt22b3/Ec=";
+      rev = "d4fa3c7260d1537ac5183740b9338373a673d5c0";
+      hash = "sha256-YSOmEVqS0v6Js/L3k0L4iezFVHRTNePMhJyTc3te74c=";
     };
     meta.homepage = "https://github.com/tree-sitter-grammars/tree-sitter-meson";
   };
   mlir = buildGrammar {
     language = "mlir";
-    version = "0.0.0+rev=837b0cc";
+    version = "0.0.0+rev=6b15a01";
     src = fetchFromGitHub {
       owner = "artagnon";
       repo = "tree-sitter-mlir";
-      rev = "837b0cc2c7b8ae20fb1b582eb507873c6e588e01";
-      hash = "sha256-JxFpl49GjonEXwLDSvxrTKHfherY3xlmTBodiSmxwtg=";
+      rev = "6b15a0164c0aeed3009e9feff3dc38d54e91cef9";
+      hash = "sha256-j+UdYtLb6RRq+zpRbTvEK9pcV46ef7Ivxo+y9+XoxvE=";
     };
     generate = true;
     meta.homepage = "https://github.com/artagnon/tree-sitter-mlir";
@@ -2117,12 +2117,12 @@
   };
   phpdoc = buildGrammar {
     language = "phpdoc";
-    version = "0.0.0+rev=488198e";
+    version = "0.0.0+rev=12d5030";
     src = fetchFromGitHub {
       owner = "claytonrcarter";
       repo = "tree-sitter-phpdoc";
-      rev = "488198e61f49fc74ee54069a4126b556665a57cc";
-      hash = "sha256-+6EKIQtkwJ/wQFXckq1X3lhmzoLniRtolyA4YGjJttc=";
+      rev = "12d50307e6c02e5f4f876fa6cf2edea1f7808c0d";
+      hash = "sha256-X+ElKI0ZMLCmxEanKsDRL/1KzGZfBrG7zITsT+jSrtQ=";
     };
     meta.homepage = "https://github.com/claytonrcarter/tree-sitter-phpdoc";
   };
@@ -2893,13 +2893,14 @@
   };
   strace = buildGrammar {
     language = "strace";
-    version = "0.0.0+rev=d819cdd";
+    version = "0.0.0+rev=776e96c";
     src = fetchFromGitHub {
       owner = "sigmaSd";
       repo = "tree-sitter-strace";
-      rev = "d819cdd5dbe455bd3c859193633c8d91c0df7c36";
-      hash = "sha256-u2LznohljEq7WEoVbwr1ZyV+qbchDuoktJFCeh4iePg=";
+      rev = "776e96ca962a58cd6858e2c5a2dd4e7e941dbcd4";
+      hash = "sha256-jQYMo9qA88CAUUwf9gTg5U8QKZsdKAh0+Ox3DuE8euI=";
     };
+    generate = true;
     meta.homepage = "https://github.com/sigmaSd/tree-sitter-strace";
   };
   styled = buildGrammar {
@@ -3016,12 +3017,12 @@
   };
   t32 = buildGrammar {
     language = "t32";
-    version = "0.0.0+rev=f61c5f1";
+    version = "0.0.0+rev=5b5e433";
     src = fetchFromGitHub {
       owner = "xasc";
       repo = "tree-sitter-t32";
-      rev = "f61c5f112af4aa5cc674f0197e00fa358aab7bbb";
-      hash = "sha256-MVi+M7iWG5W7AX6a4ISeqRmp1qnaXw5usqfc9LbcL1Q=";
+      rev = "5b5e4336731bda5ea2e6b78b6a2d9e7a89032b75";
+      hash = "sha256-dAbjM+wlKtJ3cY3zdRgsdsjJ0ZYDZxTL0mcunqqNbvw=";
     };
     meta.homepage = "https://github.com/xasc/tree-sitter-t32";
   };
@@ -3364,12 +3365,12 @@
   };
   vhdl = buildGrammar {
     language = "vhdl";
-    version = "0.0.0+rev=3d8d72f";
+    version = "0.0.0+rev=7ae08de";
     src = fetchFromGitHub {
       owner = "jpt13653903";
       repo = "tree-sitter-vhdl";
-      rev = "3d8d72fd2deb27d7bcebf927c4e4bf050fbaf4ba";
-      hash = "sha256-1Gv2Ra8rHZtVE474tVFiW7C2cbsufEhy+kIlJRk45BY=";
+      rev = "7ae08deb5d1641aa57111342218ca1e1b3a5d539";
+      hash = "sha256-IJ6Gqq+3YJlL4n4cjtCLUCZKpLVJQa81nQrLsJBCccs=";
     };
     meta.homepage = "https://github.com/jpt13653903/tree-sitter-vhdl";
   };
