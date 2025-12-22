@@ -2893,14 +2893,13 @@
   };
   strace = buildGrammar {
     language = "strace";
-    version = "0.0.0+rev=776e96c";
+    version = "0.0.0+rev=ac874dd";
     src = fetchFromGitHub {
       owner = "sigmaSd";
       repo = "tree-sitter-strace";
-      rev = "776e96ca962a58cd6858e2c5a2dd4e7e941dbcd4";
-      hash = "sha256-jQYMo9qA88CAUUwf9gTg5U8QKZsdKAh0+Ox3DuE8euI=";
+      rev = "ac874ddfcc08d689fee1f4533789e06d88388f29";
+      hash = "sha256-BGCbpw85+NNQMF+emS2hllbIeTmiFvveFzlK5lKaD5U=";
     };
-    generate = true;
     meta.homepage = "https://github.com/sigmaSd/tree-sitter-strace";
   };
   styled = buildGrammar {
