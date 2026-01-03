@@ -2569,14 +2569,14 @@
     };
     meta.homepage = "https://github.com/Hubro/tree-sitter-robot";
   };
-  robots = buildGrammar {
-    language = "robots";
-    version = "0.0.0+rev=8e3a420";
+  robots_txt = buildGrammar {
+    language = "robots_txt";
+    version = "0.0.0+rev=0c06610";
     src = fetchFromGitHub {
       owner = "opa-oz";
       repo = "tree-sitter-robots-txt";
-      rev = "8e3a4205b76236bb6dbebdbee5afc262ce38bb62";
-      hash = "sha256-OePLE85CWbl0hnre4Apq5Ix2GA8juGV2TE891Py4AME=";
+      rev = "0c066107e3548de79316a6a4ec771e2f7cf7c468";
+      hash = "sha256-fQq5agJ/xHsWxEJAydGxED4Z0bmREfXJ1t/EspBkYC8=";
     };
     meta.homepage = "https://github.com/opa-oz/tree-sitter-robots-txt";
   };
