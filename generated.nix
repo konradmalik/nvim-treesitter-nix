@@ -1600,6 +1600,17 @@
     };
     meta.homepage = "https://github.com/OXY2DEV/tree-sitter-kitty";
   };
+  kos = buildGrammar {
+    language = "kos";
+    version = "0.0.0+rev=5f11d41";
+    src = fetchFromGitHub {
+      owner = "kos-lang";
+      repo = "tree-sitter-kos";
+      rev = "5f11d41b3150b0837e8b3964151ebb7fc4f367e9";
+      hash = "sha256-tdiNHUUTvUpH2JSPxxgx7aw5XTeUmk0hoM9gI/c/WOk=";
+    };
+    meta.homepage = "https://github.com/kos-lang/tree-sitter-kos";
+  };
   kotlin = buildGrammar {
     language = "kotlin";
     version = "0.0.0+rev=57fb456";
