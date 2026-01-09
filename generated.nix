@@ -207,6 +207,17 @@
     };
     meta.homepage = "https://github.com/ambroisie/tree-sitter-bp";
   };
+  bpftrace = buildGrammar {
+    language = "bpftrace";
+    version = "0.0.0+rev=9cdfa28";
+    src = fetchFromGitHub {
+      owner = "sgruszka";
+      repo = "tree-sitter-bpftrace";
+      rev = "9cdfa285bb4fd3abc74cce6e2fb46f381feca987";
+      hash = "sha256-s5aoKTpH+tyahu/3SYjQx9Kn0PRcTrp05ncIztaKQbI=";
+    };
+    meta.homepage = "https://github.com/sgruszka/tree-sitter-bpftrace";
+  };
   brightscript = buildGrammar {
     language = "brightscript";
     version = "0.0.0+rev=253fdfa";
@@ -1602,12 +1613,12 @@
   };
   kos = buildGrammar {
     language = "kos";
-    version = "0.0.0+rev=5f11d41";
+    version = "0.0.0+rev=03b261c";
     src = fetchFromGitHub {
       owner = "kos-lang";
       repo = "tree-sitter-kos";
-      rev = "5f11d41b3150b0837e8b3964151ebb7fc4f367e9";
-      hash = "sha256-tdiNHUUTvUpH2JSPxxgx7aw5XTeUmk0hoM9gI/c/WOk=";
+      rev = "03b261c1a78b71c38cf4616497f253c4a4ce118b";
+      hash = "sha256-38i2AbPZNQb5EOUoyNvk20HfesLmbkvNxn/oyGx/W3k=";
     };
     meta.homepage = "https://github.com/kos-lang/tree-sitter-kos";
   };
