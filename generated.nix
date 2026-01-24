@@ -209,12 +209,12 @@
   };
   bpftrace = buildGrammar {
     language = "bpftrace";
-    version = "0.0.0+rev=99ad82e";
+    version = "0.0.0+rev=0978030";
     src = fetchFromGitHub {
       owner = "sgruszka";
       repo = "tree-sitter-bpftrace";
-      rev = "99ad82e02067a25b2a717fc006ea74b1604f7115";
-      hash = "sha256-bwyjx5XfWxXzOC0zoDNUjXjLI7cC7S1ebYWtmVxUWPk=";
+      rev = "0978030fdcdab74d49faaee2a60eb94607a367cc";
+      hash = "sha256-dM4wuIB1Sg+Fnb7ldx62OOd7w14ewEX0Em27peSeDL0=";
     };
     meta.homepage = "https://github.com/sgruszka/tree-sitter-bpftrace";
   };
