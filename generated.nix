@@ -2637,12 +2637,12 @@
   };
   ruby = buildGrammar {
     language = "ruby";
-    version = "0.0.0+rev=89bd7a8";
+    version = "0.0.0+rev=ab6dca7";
     src = fetchFromGitHub {
       owner = "tree-sitter";
       repo = "tree-sitter-ruby";
-      rev = "89bd7a8e5450cb6a942418a619d30469f259e5d6";
-      hash = "sha256-84Nqw6QyGqwKAT+7Cdrzl1SikfJ3doX3tngGZWaXkVc=";
+      rev = "ab6dca77a8184abc94af6e3e82538741b5078d63";
+      hash = "sha256-qAO2qRvaYlyCdSuiYBoQG/jAWiZEA5p67BTPdoK0dnU=";
     };
     meta.homepage = "https://github.com/tree-sitter/tree-sitter-ruby";
   };
@@ -3441,12 +3441,12 @@
   };
   vue = buildGrammar {
     language = "vue";
-    version = "0.0.0+rev=22bdfa6";
+    version = "0.0.0+rev=ce8011a";
     src = fetchFromGitHub {
       owner = "tree-sitter-grammars";
       repo = "tree-sitter-vue";
-      rev = "22bdfa6c9fc0f5ffa44c6e938ec46869ac8a99ff";
-      hash = "sha256-LnmUtJJpBIZPTJqrQQ7WI8V44hPw3yxR+j2jR0pHIdY=";
+      rev = "ce8011a414fdf8091f4e4071752efc376f4afb08";
+      hash = "sha256-pCoyDRuRCpfpJh7vQIM8yZz5aPcqrdYlTJGM/K5oQFs=";
     };
     meta.homepage = "https://github.com/tree-sitter-grammars/tree-sitter-vue";
   };
