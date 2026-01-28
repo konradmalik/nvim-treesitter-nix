@@ -19,11 +19,11 @@
     "nvim-treesitter": {
       "flake": false,
       "locked": {
-        "lastModified": 1769339321,
-        "narHash": "sha256-ioLYtoxZvwWxP5FHczoOpmF6sEFZxASGnXMPMX105kA=",
+        "lastModified": 1769511773,
+        "narHash": "sha256-9GI22/cwoJWOO7jvRpW67s/x6IoahNZkMpBb58rO31k=",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter",
-        "rev": "568ede7e79172a0fe7c9d631454a97ad968deaf2",
+        "rev": "f8bbc3177d929dc86e272c41cc15219f0a7aa1ac",
         "type": "github"
       },
       "original": {
