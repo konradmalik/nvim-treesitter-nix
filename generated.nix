@@ -242,12 +242,12 @@
   };
   c3 = buildGrammar {
     language = "c3";
-    version = "0.0.0+rev=2c04e78";
+    version = "0.0.0+rev=7ef54ad";
     src = fetchFromGitHub {
       owner = "c3lang";
       repo = "tree-sitter-c3";
-      rev = "2c04e7858d63497152d42f08d3067972618aeedc";
-      hash = "sha256-YqrdnaCh5OnVtQJiBj45n6NYqIthDnNBeYjMCNmFcD0=";
+      rev = "7ef54adef1008ce7d943c2cca03aee93a79b2252";
+      hash = "sha256-OFhKk7dJYu17wbxXqBH2Z5eLurhioLYDc0pUgXiZtP8=";
     };
     meta.homepage = "https://github.com/c3lang/tree-sitter-c3";
   };
