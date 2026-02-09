@@ -15,7 +15,11 @@
   fetchPypi,
   fetchgit,
   fetchhg,
+  fetchpatch,
+  fetchpatch2,
   fetchsvn,
+  fetchurl,
+  fetchzip,
 }:
 
 {
@@ -1406,7 +1410,7 @@
     src = fetchFromGitHub {
       owner = "inko-lang";
       repo = "tree-sitter-inko";
-      rev = "v0.5.1";
+      tag = "v0.5.1";
       hash = "sha256-bt/T6O/7of8r9DrA6DU8pM4vWlBCgWWzw89GZbDyJnw=";
     };
     meta.homepage = "https://github.com/inko-lang/tree-sitter-inko";
@@ -2377,7 +2381,7 @@
     src = fetchFromGitHub {
       owner = "tree-sitter";
       repo = "tree-sitter-python";
-      rev = "v0.25.0";
+      tag = "v0.25.0";
       hash = "sha256-F5XH21PjPpbwYylgKdwD3MZ5o0amDt4xf/e5UikPcxY=";
     };
     meta.homepage = "https://github.com/tree-sitter/tree-sitter-python";
@@ -3489,7 +3493,7 @@
     src = fetchFromGitHub {
       owner = "bytecodealliance";
       repo = "tree-sitter-wit";
-      rev = "v1.2.0";
+      tag = "v1.2.0";
       hash = "sha256-scye60ETUak1mXJXC+UY5sqbuqAcjxCsm4+AVJHhGws=";
     };
     meta.homepage = "https://github.com/bytecodealliance/tree-sitter-wit";
@@ -3624,7 +3628,7 @@
     src = fetchFromGitHub {
       owner = "georgeharker";
       repo = "tree-sitter-zsh";
-      rev = "v0.53.0";
+      tag = "v0.53.0";
       hash = "sha256-xDivWiJYwuydadkyin6jsc9FFwhgHQ+EBa/YQRiAM/s=";
     };
     meta.homepage = "https://github.com/georgeharker/tree-sitter-zsh";
