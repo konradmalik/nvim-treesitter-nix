@@ -3379,12 +3379,12 @@
   };
   vento = buildGrammar {
     language = "vento";
-    version = "0.0.0+rev=3b32474";
+    version = "0.0.0+rev=edd6596";
     src = fetchFromGitHub {
       owner = "ventojs";
       repo = "tree-sitter-vento";
-      rev = "3b32474bc29584ea214e4e84b47102408263fe0e";
-      hash = "sha256-h8yC+MJIAH7DM69UQ8moJBmcmrSZkxvWrMb+NqtYB2Y=";
+      rev = "edd6596d4b0f392b87fc345dc26d84a6c32f7059";
+      hash = "sha256-QbPV9MVe5e9l/rAy2phEd5aqejl4KBkBhHIFdhuYCe4=";
     };
     meta.homepage = "https://github.com/ventojs/tree-sitter-vento";
   };
