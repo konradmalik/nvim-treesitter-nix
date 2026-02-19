@@ -1628,12 +1628,12 @@
   };
   kotlin = buildGrammar {
     language = "kotlin";
-    version = "0.0.0+rev=6b97885";
+    version = "0.0.0+rev=48c964a";
     src = fetchFromGitHub {
       owner = "fwcd";
       repo = "tree-sitter-kotlin";
-      rev = "6b9788578ae23a1bc7c87e8d564e0daf7671dee3";
-      hash = "sha256-WfFcXtJS5gtpp73as1lrAb4GLn8r5F/PNw4xAIWs+hw=";
+      rev = "48c964a9ddfe4387968d1b6412d7b39106fb7f39";
+      hash = "sha256-m8oAv6W06MzFgJ7coaaypuElsrIVLFuIxBtSi08LuKI=";
     };
     meta.homepage = "https://github.com/fwcd/tree-sitter-kotlin";
   };
@@ -2299,14 +2299,14 @@
   };
   proto = buildGrammar {
     language = "proto";
-    version = "0.0.0+rev=e9f6b43";
+    version = "0.0.0+rev=0e122d8";
     src = fetchFromGitHub {
-      owner = "treywood";
+      owner = "coder3101";
       repo = "tree-sitter-proto";
-      rev = "e9f6b43f6844bd2189b50a422d4e2094313f6aa3";
-      hash = "sha256-Ue6w6HWy+NTJt+AKTFfJIUf3HXHTwkUkDk4UdDMSD+U=";
+      rev = "0e122d8444fd67cd8fb72fc927323b36807e7ace";
+      hash = "sha256-fSloTD0QrV36YaB6e5zn/NkQVoZEWKTiK0PN+3DznuY=";
     };
-    meta.homepage = "https://github.com/treywood/tree-sitter-proto";
+    meta.homepage = "https://github.com/coder3101/tree-sitter-proto";
   };
   prql = buildGrammar {
     language = "prql";
