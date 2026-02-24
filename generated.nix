@@ -623,12 +623,12 @@
   };
   editorconfig = buildGrammar {
     language = "editorconfig";
-    version = "0.0.0+rev=406ab80";
+    version = "0.0.0+rev=v2.0.0";
     src = fetchFromGitHub {
       owner = "ValdezFOmar";
       repo = "tree-sitter-editorconfig";
-      rev = "406ab80f7dc4f3aac252ad3d106737a621dde47d";
-      hash = "sha256-PcDI7m9QsPefyoLKLqvmeyaDemAS5jwldTQSOYBW82Q=";
+      tag = "v2.0.0";
+      hash = "sha256-XoIUVzuXiGDADlAeMKCi0p8mJXrPIzuqi4LLm9wD5Ns=";
     };
     meta.homepage = "https://github.com/ValdezFOmar/tree-sitter-editorconfig";
   };
