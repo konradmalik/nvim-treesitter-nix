@@ -489,12 +489,12 @@
   };
   desktop = buildGrammar {
     language = "desktop";
-    version = "0.0.0+rev=4a99354";
+    version = "0.0.0+rev=v1.1.1";
     src = fetchFromGitHub {
       owner = "ValdezFOmar";
       repo = "tree-sitter-desktop";
-      rev = "4a99354f8e9bb7270586f6f539130c74e59cafdd";
-      hash = "sha256-kfqukDxZCtRBTZVFV+FyE8M7ls1Bi5X9o5TUDH8Zg/8=";
+      tag = "v1.1.1";
+      hash = "sha256-ZxOpv7SPq04jEuduVc0NaVr+IgjJ9CdHp1lpLgYHQQg=";
     };
     meta.homepage = "https://github.com/ValdezFOmar/tree-sitter-desktop";
   };
@@ -3534,12 +3534,12 @@
   };
   xresources = buildGrammar {
     language = "xresources";
-    version = "0.0.0+rev=30c59f2";
+    version = "0.0.0+rev=v1.0.0";
     src = fetchFromGitHub {
       owner = "ValdezFOmar";
       repo = "tree-sitter-xresources";
-      rev = "30c59f2f095910509a8379f5de71db3acfef15d6";
-      hash = "sha256-3JKqoQAwAPob0hiKCDCqtIvf8udfXxcuaUCo5jLyers=";
+      tag = "v1.0.0";
+      hash = "sha256-Ov/EKPw4HW0QVQahYb17CM7cJjTya+B1x45ET4jUo1E=";
     };
     meta.homepage = "https://github.com/ValdezFOmar/tree-sitter-xresources";
   };
