@@ -2941,12 +2941,12 @@
   };
   supercollider = buildGrammar {
     language = "supercollider";
-    version = "0.0.0+rev=76b3cab";
+    version = "0.0.0+rev=e2d1480";
     src = fetchFromGitHub {
       owner = "madskjeldgaard";
       repo = "tree-sitter-supercollider";
-      rev = "76b3cab1773f08bb7d3a185420b0a44c6da8c294";
-      hash = "sha256-drn1S4gNm6fOSUTCa/CrAqCWoUn16y1hpaZBCPpyaNE=";
+      rev = "e2d1480de0a62cd53f81645cb39bc1f3fa2dce5a";
+      hash = "sha256-7vmL+o/WdvDntwOHg+ETdsRn77BegSqG0s84yLTNRx8=";
     };
     meta.homepage = "https://github.com/madskjeldgaard/tree-sitter-supercollider";
   };
