@@ -2586,12 +2586,12 @@
   };
   robot = buildGrammar {
     language = "robot";
-    version = "0.0.0+rev=v1.2.0";
+    version = "0.0.0+rev=v1.3.0";
     src = fetchFromGitHub {
       owner = "Hubro";
       repo = "tree-sitter-robot";
-      tag = "v1.2.0";
-      hash = "sha256-YvhRF2G8qNCkCp/XMuwV8qDGBYq+3d/XF0nCJdEGoXM=";
+      tag = "v1.3.0";
+      hash = "sha256-GJTZMIOrEXsfVzVigF2XKKDxchkOGv0zEya5o9k5ZnY=";
     };
     meta.homepage = "https://github.com/Hubro/tree-sitter-robot";
   };
