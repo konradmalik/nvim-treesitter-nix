@@ -3624,12 +3624,12 @@
   };
   zsh = buildGrammar {
     language = "zsh";
-    version = "0.0.0+rev=v0.57.0";
+    version = "0.0.0+rev=b5d435f";
     src = fetchFromGitHub {
       owner = "georgeharker";
       repo = "tree-sitter-zsh";
-      tag = "v0.57.0";
-      hash = "sha256-LqUB72t6ZFejIrWFfOcQTSjOZQtnXprIhnoomrkoDTo=";
+      rev = "b5d435fdef93257af6a7b6f957662fc88942609f";
+      hash = "sha256-9ZyAJUt4L3wbpMZDmRTybqsD6mWB/GlosGbkqLt1Zqc=";
     };
     meta.homepage = "https://github.com/georgeharker/tree-sitter-zsh";
   };
