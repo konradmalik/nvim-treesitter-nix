@@ -2108,13 +2108,14 @@
   };
   perl = buildGrammar {
     language = "perl";
-    version = "0.0.0+rev=0c24d00";
+    version = "0.0.0+rev=ea9667d";
     src = fetchFromGitHub {
       owner = "tree-sitter-perl";
       repo = "tree-sitter-perl";
-      rev = "0c24d001dd1921e418fb933d208a7bd7dd3f923a";
-      hash = "sha256-rKu3CGHckXlQnI/bvrQDq40jRO4PAueWKNZJADjmv5A=";
+      rev = "ea9667dc65a816acace002a2b1b099978785ca33";
+      hash = "sha256-siyJfN5s63pPxrSpuzKltgXWeNDytc80MDXo4pz3j7Q=";
     };
+    generate = true;
     meta.homepage = "https://github.com/tree-sitter-perl/tree-sitter-perl";
   };
   php = buildGrammar {
@@ -2187,13 +2188,14 @@
   };
   pod = buildGrammar {
     language = "pod";
-    version = "0.0.0+rev=0bf8387";
+    version = "0.0.0+rev=4559a97";
     src = fetchFromGitHub {
       owner = "tree-sitter-perl";
       repo = "tree-sitter-pod";
-      rev = "0bf8387987c21bf2f8ed41d2575a8f22b139687f";
-      hash = "sha256-yV2kVAxWxdyIJ3g2oivDc01SAQF0lc7UMT2sfv9lKzI=";
+      rev = "4559a9767eb15d757dce24107b840b137f673d33";
+      hash = "sha256-yTmPjiR5Gf2oAruRjQp3tiVze8UwksY6t4L8Dvuh00U=";
     };
+    generate = true;
     meta.homepage = "https://github.com/tree-sitter-perl/tree-sitter-pod";
   };
   poe_filter = buildGrammar {
